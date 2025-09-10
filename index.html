@@ -1,46 +1,58 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Suganthi's Amazon Picks</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Amazon Finds</title>
     <style>
-        body {{
+        body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: #f4f4f4;
             text-align: center;
             padding: 20px;
-        }}
-        h1 {{
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
             color: #333;
-        }}
-        .link-button {{
+        }
+        .link-button {
             display: block;
-            margin: 10px auto;
-            padding: 15px 25px;
-            background-color: #0073e6;
+            margin: 10px 0;
+            padding: 12px;
+            background-color: #ff9900;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            width: 80%;
-            max-width: 400px;
-        }}
-        .disclaimer {{
-            margin-top: 30px;
-            font-size: 0.9em;
-            color: #666;
-        }}
+            font-weight: bold;
+        }
+        .link-button:hover {
+            background-color: #e68a00;
+        }
+        .disclaimer {
+            font-size: 12px;
+            color: #777;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Suganthi's Amazon Favorites</h1>
+    <div class="container">
+        <h1>My Favorite Amazon Finds</h1>
     <a class="link-button" href="https://amzn.to/4plMXZK" target="_blank">Ninja Air Fryers</a>
     <a class="link-button" href="https://amzn.to/467Eh1D" target="_blank">Sperax Walking vibration pad</a>
     <a class="link-button" href="https://amzn.to/46dixjz" target="_blank">Adjustable standing desk</a>
     <a class="link-button" href="https://amzn.to/4mcpF5L" target="_blank">Cotton Quilt</a>
 
-    <div class="disclaimer">
-        As an Amazon Associate, I earn from qualifying purchases.
+        <div class="disclaimer">
+            As an Amazon Associate, I earn from qualifying purchases.
+        </div>
     </div>
 </body>
 </html>
